@@ -34,7 +34,7 @@ def plot_jet(image, mask):
     mask2[:, :, [2, 0]] = mask2[:, :, [0, 2]]
     return Image.fromarray(mask2)
 
-with open("config file here", 'rb') as f:
+with open("config file here as pkl", 'rb') as f:
     cfg = pickle.load(f)
 
 model = build_model(cfg)  # returns a torch.nn.Module
@@ -45,7 +45,6 @@ model.eval()
 _, preprocess_train, preprocess_val = open_clip.create_model_and_transforms('hf-hub:microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224')
 tokenizer = open_clip.get_tokenizer('hf-hub:microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224')
 
-# NOTE: After we are done with the pipeline classifier, we will run the version we trained last night.
 full_data_path = 'data_thang_personal/SAMed_materials/output_fixed_all.csv'
 full_data = pd.read_csv(full_data_path)
 root_ = '/home/tp030/IAI/data_thang_personal/mimic-cxr-2.0.0.physionet.org'

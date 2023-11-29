@@ -1,7 +1,7 @@
 _BASE_: Base-tiai.yaml
 DATASETS:
   TRAIN: ("Tiai_gaze_train_e2e_v2",)
-  TEST: ('Tiai_gaze_test_e2e_v2',)
+  TEST: ('TIAI_gaze_test_e2e_v2',)
 MODEL:
   META_ARCHITECTURE: "TiaiBiomedCLIPL2_e2e_v2"
   iai:
