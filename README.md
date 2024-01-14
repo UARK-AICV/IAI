@@ -4,6 +4,9 @@
 ![](imgs/Overview.png)
 #### [[paper]](https://arxiv.org/abs/2309.13550)
 
+## About this repo
+While cleaning the code for this repo takes some more time, I can still provide the data in case anyone needs it. Email your request to tp030@uark.edu. Note that because this dataset is built from REFLACX and MIMIC-CXR, please attach proof that you can access and download those data (screenshots are fine). 
+
 ## Introduction
 
 In the field of chest X-ray (CXR) diagnosis, existing works often focus solely on determining where a radiologist looks, typically through tasks such as detection, segmentation, or classification. However, these approaches are often designed as black-box models, lacking interpretability. In this paper, we introduce Interpretable Artificial Intelligence (I-AI) a novel and unified controllable interpretable pipeline for decoding the intense focus of radiologists in CXR diagnosis. Our I-AI addresses three key questions: where a radiologist looks, how long they focus on specific areas, and what findings they diagnose. By capturing the intensity of the radiologist's gaze, we provide a unified solution that offers insights into the cognitive process underlying radiological interpretation. Unlike current methods that rely on black-box machine learning models, which can be prone to extracting erroneous information from the entire input image during the diagnosis process, we tackle this issue by effectively masking out irrelevant information. Our proposed I-AI leverages a vision-language model, allowing for precise control over the interpretation process while ensuring the exclusion of irrelevant features.
