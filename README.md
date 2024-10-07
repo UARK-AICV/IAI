@@ -36,7 +36,7 @@ To train our I-AI model, we utilize an eye gaze dataset to extract anatomical ga
 
   |Model|Config |Weights|
   |-----|-------|---|
-  |iai|configs/tsan_biomedclip_l2_mask_dice_heatmap_e2e_v2.yaml |coming soon |
+  |iai|configs/tsan_biomedclip_l2_mask_dice_heatmap_e2e_v2.yaml | [onedrive](https://uark-my.sharepoint.com/:u:/g/personal/tp030_uark_edu/EYcAXbcARnBJu2f4Lr1yO2EBWVXd3GlKnjTT6e3XpmIuOA?e=tlnmDE)|
 
 ### Demo
 To generate the results from a folder, please run 
