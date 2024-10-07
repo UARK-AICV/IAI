@@ -5,7 +5,7 @@
 #### [[paper]](https://arxiv.org/abs/2309.13550)
 
 ## About this repo
-While cleaning the code for this repo takes some more time, I can still provide the data in case anyone needs it. Email your request to Trong Thang Pham - tp030@uark.edu. Note that because this dataset is built from [REFLACX](https://physionet.org/content/reflacx-xray-localization/1.0.0/) and [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/), please attach proof that you can access and download those data (screenshots are fine). 
+While cleaning the code for this repo takes some more time, I can still provide the data in case anyone needs it. Email your request to Trong Thang Pham - tp030@uark.edu. Note that because this dataset is built from [REFLACX](https://physionet.org/content/reflacx-xray-localization/1.0.0/) and [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/), please attach proof that you can access and download those data. 
 
 ## Introduction
 
